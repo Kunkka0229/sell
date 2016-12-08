@@ -2,218 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb853fa0-ec5a-49f7-913e-915a70ccb329" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖01_商品页_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖02_商品页_公告及优惠信息_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖03_商品页_购物车详情_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖04_商品页面_商品详情_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖05_评价页_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖06_商家页_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/brand@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/brand@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/bulletin@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/bulletin@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/decrease_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/discount_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/guarantee_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/invoice_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/special_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star24_half@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star24_half@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star24_off@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star24_off@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star24_on@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star24_on@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star36_half@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star36_half@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star36_off@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star36_off@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star36_on@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star36_on@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star48_half@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star48_half@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star48_off@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star48_off@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star48_on@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/img/star48_on@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/外卖01_商品页.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/外卖02_商品页_公告及优惠信息.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/外卖03_商品页_购物车详情.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/外卖04_商品页面_商品详情.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/外卖05_评价页.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/外卖06_商家页.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/标注/外卖01_商品页_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/标注/外卖02_商品页_公告及优惠信息_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/标注/外卖03_商品页_购物车详情_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/标注/外卖04_商品页面_商品详情_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/标注/外卖05_评价页_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/标注/外卖06_商家页_spec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/sell-icon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/sell-icon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/sell-icon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/decrease_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/decrease_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/discount_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/discount_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/guarantee_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/guarantee_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/invoice_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/invoice_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/special_3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/special_3@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/brand@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/brand@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/bulletin@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/bulletin@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/decrease_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/decrease_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/decrease_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/decrease_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/discount_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/discount_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/discount_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/discount_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/guarantee_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/guarantee_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/guarantee_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/guarantee_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/invoice_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/invoice_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/invoice_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/invoice_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/special_1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/special_1@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/special_2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/special_2@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/decrease_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/decrease_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/discount_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/discount_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/guarantee_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/guarantee_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/invoice_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/invoice_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/special_4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/special_4@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star24_half@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star24_half@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star24_off@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star24_off@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star24_on@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star24_on@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star36_half@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star36_half@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star36_off@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star36_off@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star36_on@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star36_on@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star48_half@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star48_half@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star48_off@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star48_off@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star48_on@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star48_on@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Kunkka.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sell.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/check-versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/dev-client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/dev-server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/dev.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/prod.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖01_商品页.mkm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖02_商品页_公告及优惠信息.mkm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖03_商品页_购物车详情.mkm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖04_商品页面_商品详情.mkm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖05_评价页.mkm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/PSD/外卖06_商家页.mkm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/add_circle.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/arrow_lift.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/check_circle.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/close.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/favorite.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/keyboard_arrow_right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/remove_circle_outline.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/shopping_cart.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/thumb_down.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/SVG/thumb_up.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/fonts/sell-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/store.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/scss/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/scss/_icon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/scss/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/food/food.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/goods/goods.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/header.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ratings/ratings.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ratingselect/ratingselect.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/seller/seller.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/shopcart/shopcart.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/split/split.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/star/star.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="sell.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -234,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="seller.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seller.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/seller/seller.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
@@ -243,6 +32,22 @@
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="e#3032#3072#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="116">
+                <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -601,18 +406,18 @@
       <workItem from="1480987410662" duration="8687000" />
       <workItem from="1481078232298" duration="77000" />
       <workItem from="1481083940441" duration="1372000" />
-      <workItem from="1481178678952" duration="274000" />
+      <workItem from="1481178678952" duration="662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122929000" />
+    <option name="totallyTimeSpent" value="123317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17382088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17382088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -649,13 +454,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/scss/_icon.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -990,6 +788,20 @@
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="e#3032#3072#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="116">
+            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
