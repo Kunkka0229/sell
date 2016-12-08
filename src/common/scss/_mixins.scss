@@ -1,0 +1,27 @@
+/*1px像素边框*/
+@mixin border-1px($color){
+  position: relative;
+
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    border-top: 1px solid $color;
+  }
+};
+@mixin border-none(){
+  &:after{
+    display: none;
+  }
+}
+
+/*2倍和3倍图片*/
+@mixin bg-image($url){
+  background-image: url($url + "@2x.png");
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    background-image: url($url + "@3x.png");
+  }
+}
