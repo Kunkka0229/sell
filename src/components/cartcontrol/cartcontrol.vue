@@ -12,6 +12,7 @@
 
 <script type="text/ecmascript-6">
     import Vue from 'vue';
+    import Bus from '../../common/js/eventBus';
     export default{
         props: {
             food: {
@@ -33,8 +34,7 @@
                 } else {
                     this.food.count++;
                 }
-                // 传给父组件 触发事件
-                this.$emit('drop', event.target);
+                Bus.$emit('cart.add', event.target);
             },
             decreaseCart(event) {
                 // 防止多次被点击

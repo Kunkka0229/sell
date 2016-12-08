@@ -18,7 +18,7 @@
                         <span class="now">￥{{ food.price }}</span><span v-show="food.oldPrice" class="old">￥{{ food.oldPrice }}</span>
                     </div>
                     <div class="cartcontrol-wrapper">
-                        <cartcontrol :food="food" @drop="drop"></cartcontrol>
+                        <cartcontrol :food="food"></cartcontrol>
                     </div>
                     <transition name="fade">
                         <div class="buy" v-show="!food.count || food.count === 0" @click.stop.prevent="addFirst">加入购物车
@@ -34,7 +34,7 @@
                 <div class="rating">
                     <h1 class="title">商品评价</h1>
                     <ratingselect :select-type="selectType" :only-content="onlyContent" :desc="desc"
-                                  :ratings="food.ratings" @select="select" @onlyContent2="onlyContent2"></ratingselect>
+                                  :ratings="food.ratings"></ratingselect>
                     <div class="rating-wrapper">
                         <ul v-show="food.ratings && food.ratings.length">
                             <li v-show="needShow(rating.rateType, rating.text)" v-for="rating in food.ratings"
@@ -65,6 +65,7 @@
     import split from 'components/split/split';
     import ratingselect from 'components/ratingselect/ratingselect';
     import {formatDate} from 'common/js/date';
+    import Bus from '../../common/js/eventBus';
 
     const POSITIVE = 0;
     const NEGATIVE = 1;
@@ -94,14 +95,10 @@
             ratingselect
         },
         methods: {
-            drop() {
-                // 传给父组件 触发事件
-                this.$emit('drop', event.target);
-            },
             show() {
                 this.showFlag = true;
-                this.selectType = ALL;
-                this.onlyContent = true;
+//                this.selectType = ALL;
+//                this.onlyContent = true;
                 this.$nextTick(() => {
                     if (!this.scroll) {
                         this.scroll = new BScroll(this.$refs.food, {
@@ -120,21 +117,10 @@
                 if (!event._constructed) {
                     return;
                 }
-                // 传给父组件 触发事件
-                this.$emit('drop', event.target);
+                // 分发监听给上级组件v-goods
+                Bus.$emit('cart.add', event.target);
+                // 第一次添加购物车时需要添加count属性并初始化为1
                 Vue.set(this.food, 'count', 1);
-            },
-            select(type) {
-                this.selectType = type;
-                this.$nextTick(() => {
-                    this.scroll.refresh();
-                });
-            },
-            onlyContent2(onlyContent) {
-                this.onlyContent = onlyContent;
-                this.$nextTick(() => {
-                    this.scroll.refresh();
-                });
             },
             needShow(type, text) {
                 if (this.onlyContent && !text) {
@@ -146,6 +132,22 @@
                     return type === this.selectType;
                 }
             }
+        },
+        created() {
+            // 获取子组件的selectType的更新
+            Bus.$on('ratingtype.select', selectType => {
+                this.selectType = selectType;
+                this.$nextTick(() => {
+                    this.scroll.refresh();
+                });
+            });
+
+            Bus.$on('content.toggle', onlyContent => {
+                this.onlyContent = onlyContent;
+                this.$nextTick(() => {
+                    this.scroll.refresh();
+                });
+            });
         },
         filters: {
             formatDate(time) {

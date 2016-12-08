@@ -17,6 +17,8 @@
 
 <script type="text/ecmascript-6">
 
+    import Bus from '../../common/js/eventBus';
+
     const POSITIVE = 0;
     const NEGATIVE = 1;
     const ALL = 2;
@@ -60,14 +62,14 @@
                     return;
                 }
                 this.selectType2 = type;
-                this.$emit('select', type);
+                Bus.$emit('ratingtype.select', type);
             },
             toggleContent(event) {
                 if (!event._constructed) {
                     return;
                 }
                 this.onlyContent2 = !this.onlyContent2;
-                this.$emit('onlyContent2', this.onlyContent2);
+                Bus.$emit('content.toggle', this.onlyContent2);
             }
         },
         computed: {

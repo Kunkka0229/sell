@@ -30,7 +30,7 @@
                                     <span class="now">￥{{ food.price }}</span><span v-show="food.oldPrice" class="old">￥{{ food.oldPrice }}</span>
                                 </div>
                                 <div class="cartcontrol-wrapper">
-                                    <cartcontrol :food="food" @drop="drop"></cartcontrol>
+                                    <cartcontrol :food="food"></cartcontrol>
                                 </div>
                             </div>
                         </li>
@@ -40,7 +40,7 @@
         </div>
         <shopcart ref="shopcart" :select-foods="selectFoods" :delivery-price="seller.deliveryPrice"
                   :min-price="seller.minPrice"></shopcart>
-        <food :food="selectedFood" ref="food" @drop="drop"></food>
+        <food :food="selectedFood" ref="food"></food>
     </div>
 </template>
 
@@ -49,9 +49,7 @@
     import shopcart from 'components/shopcart/shopcart';
     import cartcontrol from 'components/cartcontrol/cartcontrol';
     import food from 'components/food/food';
-
-    import Vue from 'vue';
-    var bus = new Vue();
+    import Bus from '../../common/js/eventBus';
 
     const ERR_OK = 0;
 
@@ -105,6 +103,12 @@
                 }
             });
             this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
+
+            Bus.$on('cart.add', el => {
+                this.$nextTick(() => {
+                    this.$refs.shopcart.drop(el);
+                })
+            });
         },
         methods: {
             _initScroll() {
@@ -144,13 +148,13 @@
                 this.foodScroll.scrollToElement(el, 300);
             },
             // 子组件事件触发
-            drop(target) {
-                // 体验优化，异步执行下落动画
-                this.$nextTick(() => {
-                    // 父组件传递给子组件
-                    this.$refs.shopcart.drop(target);
-                });
-            },
+//            drop(target) {
+//                // 体验优化，异步执行下落动画
+//                this.$nextTick(() => {
+//                    // 父组件传递给子组件
+//                    this.$refs.shopcart.drop(target);
+//                });
+//            },
             selectFood(food, event) {
                 if (!event._constructed) {
                     return;
