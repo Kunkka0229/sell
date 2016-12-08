@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb853fa0-ec5a-49f7-913e-915a70ccb329" name="Default" comment="Bus">
+    <list default="true" id="cb853fa0-ec5a-49f7-913e-915a70ccb329" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sell.iws" />
@@ -426,7 +426,7 @@
       <workItem from="1481178678952" duration="969000" />
       <workItem from="1481179714187" duration="712000" />
       <workItem from="1481181602162" duration="1809000" />
-      <workItem from="1481186851463" duration="2329000" />
+      <workItem from="1481186851463" duration="2338000" />
     </task>
     <task id="LOCAL-00001" summary="sell使用">
       <created>1481179485786</created>
@@ -463,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481189136678</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bus">
+      <created>1481189200559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1481189200559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128474000" />
+    <option name="totallyTimeSpent" value="128483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
