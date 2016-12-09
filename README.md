@@ -1,6 +1,6 @@
 # sell
 
-> sell app
+> Vue-webpack 2.0
 
 ## Build Setup
 
