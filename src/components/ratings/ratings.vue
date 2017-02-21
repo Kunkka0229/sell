@@ -61,6 +61,7 @@
     import split from 'components/split/split';
     import ratingselect from 'components/ratingselect/ratingselect';
     import BScroll from 'better-scroll';
+    import data from 'common/data/data.json';
 
     const ALL = 2;
     const ERR_OK = 0;
@@ -79,16 +80,22 @@
             };
         },
         created() {
-            this.$http.get('/api/ratings').then((response) => {
-                response = response.body;
-                if (response.errno === ERR_OK) {
-                    this.ratings = response.data;
-                    this.$nextTick(() => {
-                        this.scroll = new BScroll(this.$refs.ratings, {
-                            click: true
-                        });
-                    });
-                }
+            // this.$http.get('/api/ratings').then((response) => {
+            //     response = response.body;
+            //     if (response.errno === ERR_OK) {
+            //         this.ratings = response.data;
+            //         this.$nextTick(() => {
+            //             this.scroll = new BScroll(this.$refs.ratings, {
+            //                 click: true
+            //             });
+            //         });
+            //     }
+            // });
+            this.ratings = data.ratings;
+            this.$nextTick(() => {
+                this.scroll = new BScroll(this.$refs.ratings, {
+                    click: true
+                });
             });
         },
         components: {

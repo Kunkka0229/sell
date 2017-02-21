@@ -50,6 +50,7 @@
     import cartcontrol from 'components/cartcontrol/cartcontrol';
     import food from 'components/food/food';
     import Bus from '../../common/js/eventBus';
+    import data from 'common/data/data.json';
 
     const ERR_OK = 0;
 
@@ -91,17 +92,25 @@
             }
         },
         created() {
-            this.$http.get('/api/goods').then((response) => {
-                response = response.body;
-                if (response.errno === ERR_OK) {
-                    this.goods = response.data;
-                    // DOM 更新了 操作dom时一定要在$nextTick里
-                    this.$nextTick(() => {
-                        this._initScroll();
-                        this._calculateHeight();
-                    });
-                }
+            // this.$http.get('/api/goods').then((response) => {
+            //     response = response.body;
+            //     if (response.errno === ERR_OK) {
+            //         this.goods = response.data;
+            //         // DOM 更新了 操作dom时一定要在$nextTick里
+            //         this.$nextTick(() => {
+            //             this._initScroll();
+            //             this._calculateHeight();
+            //         });
+            //     }
+            // });
+
+            this.goods = data.goods;
+            // DOM 更新了 操作dom时一定要在$nextTick里
+            this.$nextTick(() => {
+                this._initScroll();
+                this._calculateHeight();
             });
+
             this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
 
             Bus.$on('cart.add', el => {

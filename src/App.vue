@@ -21,6 +21,7 @@
 <script type="text/ecmascript-6">
     import header from 'components/header/header';
     import {urlParse} from 'common/js/util';
+    import data from 'common/data/data.json';
     const ERR_OK = 0;
     export default {
         data() {
@@ -34,13 +35,15 @@
             }
         },
         created() {
-            this.$http.get('/api/seller?id=' + this.seller.id).then((response) => {
-                response = response.body;
-                if (response.errno === ERR_OK) {
-                    // 相当于 extend方法 扩展  es6语法   vue推荐的给对象扩展属性方法
-                    this.seller = Object.assign({}, this.seller, response.data);
-                }
-            })
+            // this.$http.get('/api/seller?id=' + this.seller.id).then((response) => {
+            //     response = response.body;
+            //     if (response.errno === ERR_OK) {
+            //         // 相当于 extend方法 扩展  es6语法   vue推荐的给对象扩展属性方法
+            //         this.seller = Object.assign({}, this.seller, response.data);
+            //     }
+            // })
+
+            this.seller = Object.assign({}, this.seller, data.seller);
         },
         components: {
             'v-header': header
